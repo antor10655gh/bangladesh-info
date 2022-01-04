@@ -72,9 +72,9 @@ body {
     margin-right: 30px;
     margin-left: 30px;
     border-radius: 3px;
-    border-width: 2px;
+    border-width: 3px;
     border-style: solid;
-    border-image: linear-gradient(to bottom, rgb(255, 72, 0), rgba(0, 0, 0, 0)) 1 100%;
+    border-image: linear-gradient(to bottom, rgb(255, 0, 0), rgba(0, 0, 0, 0)) 1 100%;
     box-shadow: 5px 5px 15px gray;
 }
 
