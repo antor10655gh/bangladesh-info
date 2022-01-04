@@ -31,12 +31,16 @@ body {
 }
 
 .header-content1 a {
-    background-image: linear-gradient(green, red);
+    background-image: linear-gradient(rgb(145, 25, 16), rgba(172, 13, 13, 0.37));
     padding: 10px 40px;
     border-radius: 5px;
     margin: 0 auto;
     color: #fff;
     text-decoration: none;
+}
+
+.header-content1 a:hover {
+    background-image: linear-gradient(rgba(172, 13, 13, 0.37), rgba(145, 25, 16));
 }
 
 .header-content2 {
