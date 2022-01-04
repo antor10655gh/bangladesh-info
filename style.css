@@ -1,0 +1,106 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    margin-bottom: 100px;
+}
+
+.header h1 {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.header-main {
+    display: flex;
+    width: 100%;
+}
+
+.header-content1 {
+    width: 80%;
+    margin: 0 auto;
+    margin: 50px 20px;
+    padding: 0px 50px;
+}
+
+.header-content1 p {
+    margin-bottom: 30px;
+    text-align: justify;
+}
+
+.header-content1 a {
+    background-image: linear-gradient(green, red);
+    padding: 10px 40px;
+    border-radius: 5px;
+    margin: 0 auto;
+    color: #fff;
+    text-decoration: none;
+}
+
+.header-content2 {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.header-content2 img {
+    width: 50%;
+    padding-top: 20px;
+    padding-left: 25%;
+}
+
+.division {
+    margin-bottom: 100px;
+}
+
+.division h1 {
+    text-align: center;
+}
+
+.division-main {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 80px;
+}
+
+.division-card {
+    width: 30%;
+    margin: 0 auto;
+    margin-right: 30px;
+    margin-left: 30px;
+    border-radius: 3px;
+    border-width: 2px;
+    border-style: solid;
+    border-image: linear-gradient(to bottom, rgb(255, 72, 0), rgba(0, 0, 0, 0)) 1 100%;
+    box-shadow: 5px 5px 15px gray;
+}
+
+.division-card img {
+    width: 100%;
+}
+
+.division-card-content {
+    padding: 20px;
+}
+
+.division-card-content p {
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.division-card-content a {
+    background-image: linear-gradient(rgb(145, 25, 16), rgba(172, 13, 13, 0.37));
+    padding: 10px 40px;
+    border-radius: 5px;
+    margin: 0 auto;
+    margin-left: 30%;
+    color: #fff;
+    text-decoration: none;
+}
+
+.division-card-content a:hover {
+    background-image: linear-gradient(rgba(172, 13, 13, 0.37), rgba(145, 25, 16));
+}
